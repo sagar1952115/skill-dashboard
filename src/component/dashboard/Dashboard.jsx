@@ -31,7 +31,7 @@ const Dashboard = () => {
         JSON.stringify({ rank: 12890, percentile: 37, correct: 7 })
       );
     }
-  }, [data]);
+  }, []);
 
   return (
     <div>
