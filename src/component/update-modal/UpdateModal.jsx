@@ -12,15 +12,6 @@ const UpdateModal = ({ rank, percentile, correct, closeModal, updateData }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    localStorage.setItem(
-      "data",
-      JSON.stringify({
-        rank: urank,
-        percentile: upercentile,
-        correct: ucorrect,
-      })
-    );
     updateData(urank, upercentile, ucorrect);
     closeModal();
   };
