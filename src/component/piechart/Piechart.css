@@ -1,27 +1,14 @@
-*,
-*:before,
-*:after {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 .piechart-container {
-  height: 400px;
-  width: 400px;
-  background-color: #ffffff;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-  border-radius: 8px;
-  box-shadow: 20px 20px 40px rgba(60, 60, 150, 0.25);
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 25px auto;
 }
 .circular-progress {
   position: relative;
-  height: 250px;
-  width: 250px;
+  height: 180px;
+  width: 180px;
   border-radius: 50%;
   display: grid;
   place-items: center;
@@ -29,8 +16,8 @@
 .circular-progress:before {
   content: "";
   position: absolute;
-  height: 84%;
-  width: 84%;
+  height: 65%;
+  width: 65%;
   background-color: #ffffff;
   border-radius: 50%;
 }

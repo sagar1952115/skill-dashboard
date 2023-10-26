@@ -1,0 +1,36 @@
+.comparison-container {
+  display: flex;
+  width: 600px;
+  flex-direction: column;
+  padding: 5px 15px;
+  border: solid 1.5px #ebf0f5;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.comparison-container h3 {
+  margin: 0;
+  margin-top: 10px;
+}
+
+.comparison-container p {
+  font-size: 14px;
+  color: #566474;
+}
+
+.custom-tooltip {
+  position: relative;
+  width: 150px;
+  background-color: black;
+  border-radius: 5px;
+  padding: 2px 10px;
+  color: white;
+}
+.label {
+  font-size: 20px !important;
+  color: white !important;
+  font-weight: bold;
+}
+.desc {
+  color: white !important;
+}

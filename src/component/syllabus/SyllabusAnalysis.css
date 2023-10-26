@@ -1,0 +1,91 @@
+.syllabus-container {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 25px;
+  border: solid 1.5px #ebf0f5;
+  border-radius: 10px;
+  margin-left: 15px;
+}
+
+.topic {
+  display: flex;
+  flex-direction: column;
+}
+
+.topic > p {
+  font-size: 16px;
+  color: #566474;
+  margin: 0;
+}
+
+.progress {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progress p {
+  font-weight: bold;
+}
+
+.progress-container {
+  position: relative;
+  max-width: 200px;
+  width: 100%;
+  background: #fff;
+  /* margin: 0 15px; */
+  /* padding: 10px 20px; */
+  border-radius: 7px;
+}
+.container .skill-box {
+  width: 100%;
+  /* margin: 25px 0; */
+}
+.skill-box .title {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+.skill-box .skill-bar {
+  height: 10px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.skill-bar .skill-per {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 90%;
+  border-radius: 6px;
+  background: #4070f4;
+  animation: progress 1s ease-in-out forwards;
+  opacity: 0;
+}
+
+.skill-per.one {
+  width: 80%;
+}
+.skill-per.two {
+  width: 60%;
+}
+.skill-per.three {
+  width: 24%;
+}
+.skill-per.four {
+  width: 96%;
+}
+@keyframes progress {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    /* width: 100%; */
+  }
+}

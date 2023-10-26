@@ -1,13 +1,17 @@
 import "./App.css";
+import Dashboard from "./component/dashboard/Dashboard";
 import Header from "./component/header/Header";
-import Piechart from "./component/piechart/Piechart";
+import Sidebar from "./component/sidebar/Sidebar";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header />
-      <Piechart />
-    </div>
+      <div className="container">
+        <Sidebar />
+        <Dashboard />
+      </div>
+    </>
   );
 }
 

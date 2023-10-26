@@ -1,0 +1,30 @@
+.qanalysis-container {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 25px;
+  border: solid 1.5px #ebf0f5;
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.qanalysis-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.qanalysis-header p {
+  color: #438af6;
+  font-weight: bold;
+}
+
+.qanalysis-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.qanalysis-body p {
+  font-size: 14px;
+  color: #566474;
+}

@@ -1,0 +1,118 @@
+.modal-container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal-content {
+  width: 600px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  border-bottom: solid 1.5px #ebf0f5;
+}
+
+.modal-header img {
+  height: 50px;
+}
+
+.modal-footer {
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-bottom: solid 1.5px #ebf0f5;
+}
+
+.modal-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+
+.modal-section label {
+  font-size: 18px;
+  color: #566474;
+}
+
+.modal-section input {
+  width: 120px;
+  outline: none;
+  color: #142683;
+  height: 40px;
+  padding: 0 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: solid 1.5px #142683;
+}
+
+.modal-section input::-webkit-outer-spin-button,
+.modal-section input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.modal-count {
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #142683;
+  color: white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.modal-close {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  color: #142683;
+  align-items: center;
+  padding: 6px 18px;
+  width: 120px;
+  height: 40px;
+  border: 1px solid #142683;
+  border-radius: 5px;
+}
+
+.modal-button {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #142683;
+  cursor: pointer;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  color: white;
+  align-items: center;
+  padding: 6px 18px;
+  border: none;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  margin-left: 15px;
+}

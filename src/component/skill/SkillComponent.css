@@ -1,0 +1,46 @@
+.skill-container {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border: 1.5px solid #ebf0f5;
+  border-radius: 10px;
+}
+
+.skill-container img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.skill-content {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+}
+
+.skill-content h4 {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+.skill-content p {
+  margin-top: 5px;
+  color: #566474;
+  font-size: 14px;
+}
+
+.skill-container button {
+  width: 120px;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #142683;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

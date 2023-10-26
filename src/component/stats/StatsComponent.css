@@ -1,0 +1,50 @@
+.stats-container {
+  display: flex;
+  width: 600px;
+  flex-direction: column;
+  padding: 5px 15px;
+  border: solid 1.5px #ebf0f5;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.stats-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.stats-emoji {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #f7f8fa;
+  border: solid 1px #ebf0f5;
+}
+
+.stats-item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.stats-info {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.stats-info h2 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.stats-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #9eaab7;
+  text-transform: uppercase;
+}
