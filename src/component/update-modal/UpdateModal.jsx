@@ -3,9 +3,6 @@ import { useState } from "react";
 import "./UpdateModal.css";
 import Html from "../../asset/html.png";
 const UpdateModal = ({ rank, percentile, correct, closeModal, updateData }) => {
-  // const data = localStorage.getItem("data");
-  // const ddata = JSON.parse(data);
-
   const [urank, setRank] = useState(rank);
   const [upercentile, setPercentile] = useState(percentile);
   const [ucorrect, setCorrect] = useState(correct);

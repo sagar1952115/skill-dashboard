@@ -24,14 +24,9 @@ const Graph = ({ score, percentile }) => {
     { score: score, percentile: percentile },
   ];
 
-  const xTicks = Array.from({ length: 6 }, (_, i) => i * 20);
   const averageReference = 72;
 
   const sortedData = data.sort((a, b) => a.percentile - b.percentile);
-  const formatXAxis = (tickItem) => {
-    return `${tickItem}%`;
-  };
-
   const CustomTooltip = ({ active, payload, label }) => {
     if (active && payload && payload.length && label === percentile) {
       return (
@@ -63,8 +58,6 @@ const Graph = ({ score, percentile }) => {
           type="number"
           domain={[0, 100]}
           tickLine={false}
-          tick={xTicks}
-          tickFormatter={formatXAxis}
         />
         <YAxis dataKey={"score"} hide />
         <Tooltip content={<CustomTooltip />} />

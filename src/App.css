@@ -1,7 +1,6 @@
 .container {
   display: flex;
-  /* justify-content: center; */
-  /* overflow: hidden;   */
   flex-direction: row;
+  margin: auto;
   font-family: "DM Sans", sans-serif;
 }
